@@ -1,0 +1,55 @@
+*{
+    font-family: manrope;
+    font-size: 14px;
+}
+
+.Available-Assessment{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 35px;
+    margin-bottom: 30px;
+}
+
+.select-tags{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+select{
+    width: 350px;
+    height: 56px;
+}
+
+.sort-button{
+    width: 166px;
+    height: 44px;
+    background-color: #b0e1f4;
+    
+}
+
+.listofassessements-label{
+    font-family: manrope;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24.59px;
+    padding: 15px;
+}
+
+.skill-and-topic{
+    display: flex;
+}
+
+.box{
+    border: solid 2px  lightblue;
+    width: 330px;
+    height: 237px;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.ending{
+    display: flex;
+    justify-content: space-between;
+}
+

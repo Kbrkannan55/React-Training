@@ -1,0 +1,83 @@
+* {
+    font-family: manrope;
+  }
+  
+  .entire-page {
+    margin-left: 270px;
+  }
+  
+  .top-logo-and-image {
+    background-image: url(../src/assests/Settings-page-background.jpg);
+    height: 170px;
+    background-size: cover;
+  }
+  
+  .top-flex {
+    padding: 25px;
+    padding-left: 180px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .total-label {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 200px;
+    margin-top: 25px;
+  }
+  
+  .name-flex {
+    display: flex;
+  }
+  
+  .gender-date-flex {
+    display: flex;
+  }
+  
+  input {
+    width: 400px;
+    height: 40px;
+    padding: 10px;
+  }
+  
+  .buttons {
+    margin-left: 100px;
+    margin-top: 5px;
+  }
+  
+  /* Responsive Styles */
+  
+  @media (max-width: 768px) {
+    .whole-page {
+      margin-left: 0;
+      padding: 20px;
+    }
+  
+    .top-logo-and-image {
+      height: 120px;
+    }
+  
+    .top-flex {
+      padding: 15px;
+      padding-left: 20px;
+      justify-content: space-around;
+      margin-top: 170px;
+
+    }
+  
+    .total-label {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+  
+    input {
+      width: 100%;
+      max-width: 400px;
+    }
+  
+    .buttons {
+      margin-left: 20px;
+      margin-top: 10px;
+    }
+  }  
